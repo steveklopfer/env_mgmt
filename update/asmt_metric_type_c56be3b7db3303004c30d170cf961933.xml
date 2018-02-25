@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="asmt_metric_type">
+    <asmt_metric_type action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <allow_public>false</allow_public>
+        <allow_retake>false</allow_retake>
+        <anonymize>false</anonymize>
+        <business_rule display_value="Auto business rule for Assessments">60cbef77db3303004c30d170cf961996</business_rule>
+        <condition table="x_44763_environmen_facility_assessment">assessment_state=Ready to Take^EQ<item endquery="false" field="assessment_state" goto="false" newquery="false" operator="=" or="false" value="Ready to Take"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <default_filter>-- None --</default_filter>
+        <delete_business_rule display_value="Auto deletion rule for Assessments">fccbef77db3303004c30d170cf961999</delete_business_rule>
+        <description/>
+        <disable_ui_action/>
+        <display_all_filters>false</display_all_filters>
+        <display_field>none</display_field>
+        <duration>1970-01-15 00:00:00</duration>
+        <enable_ui_action/>
+        <end_note/>
+        <enforce_condition>false</enforce_condition>
+        <evaluation_method>assessment</evaluation_method>
+        <filter_condition/>
+        <filter_table>x_44763_environmen_facility_assessment</filter_table>
+        <introduction/>
+        <job/>
+        <live_feed>false</live_feed>
+        <name>Facility Assessment Checklist</name>
+        <notify_if_overdue>true</notify_if_overdue>
+        <notify_user>true</notify_user>
+        <overdue_notify_user/>
+        <portal_pagination>category</portal_pagination>
+        <publish_state>published</publish_state>
+        <roles>x_44763_environmen.user</roles>
+        <scale_factor>10</scale_factor>
+        <schedule_period>0</schedule_period>
+        <schedule_type>on_demand</schedule_type>
+        <scoring_type>percent</scoring_type>
+        <signature display_value="Facilities Assessment Signatire">310cbf73db7303004c30d170cf961936</signature>
+        <sys_class_name>asmt_metric_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-28 20:56:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c56be3b7db3303004c30d170cf961933</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Facility Assessment Checklist</sys_name>
+        <sys_package display_value="Environmental Management System" source="x_44763_environmen">10361436dbeb03004c30d170cf961942</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Environmental Management System">10361436dbeb03004c30d170cf961942</sys_scope>
+        <sys_update_name>asmt_metric_type_c56be3b7db3303004c30d170cf961933</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-31 02:10:54</sys_updated_on>
+        <table>x_44763_environmen_facility_assessment</table>
+        <url/>
+    </asmt_metric_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=c56be3b7db3303004c30d170cf961933"/>
+</record_update>

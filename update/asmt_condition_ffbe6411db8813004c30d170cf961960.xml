@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="asmt_condition">
+    <asmt_condition action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <assessment display_value="Facility Assessment Checklist">c56be3b7db3303004c30d170cf961933</assessment>
+        <assessment_record/>
+        <assessment_record_field>facility_assesssment</assessment_record_field>
+        <business_rule display_value="Auto assessment business rule">371fa051db8813004c30d170cf961910</business_rule>
+        <condition table="x_44763_environmen_facility_assessment_task">short_description=Assessment Task^EQ<item endquery="false" field="short_description" goto="false" newquery="false" operator="=" or="false" value="Assessment Task"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <duration/>
+        <percent_random>100</percent_random>
+        <related_field_1>facility_assesssment</related_field_1>
+        <related_field_2/>
+        <related_field_3/>
+        <related_field_4/>
+        <sys_class_name>asmt_condition</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2018-02-01 23:03:17</sys_created_on>
+        <sys_id>ffbe6411db8813004c30d170cf961960</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Environmental Management System" source="x_44763_environmen">10361436dbeb03004c30d170cf961942</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Environmental Management System">10361436dbeb03004c30d170cf961942</sys_scope>
+        <sys_update_name>asmt_condition_ffbe6411db8813004c30d170cf961960</sys_update_name>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2018-02-01 23:12:26</sys_updated_on>
+        <table>x_44763_environmen_facility_assessment_task</table>
+        <trigger_random>true</trigger_random>
+        <user_field>facility_assesssment.inspector</user_field>
+    </asmt_condition>
+</record_update>

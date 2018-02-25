@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>false</active>
+        <client>false</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Create Assessment</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var typeSysID = 'c56be3b7db3303004c30d170cf961933'; //The sys_id of an "Assessment Metric Type" record (asmt_metric_type)
+var userID = current.getValue('inspector');
+var createAssessmentOutput = (new SNC.AssessmentCreation()).createAssessments(typeSysID , "", userID );  
+var assessmentDetailsArray = createAssessmentOutput.split(',');  
+var assessmentInstanceSysId = assessmentDetailsArray[0];  
+if (assessmentDetailsArray.length >= 3) {  
+  var grAsmtInstance = new GlideRecord('asmt_assessment_instance');  
+  if ( grAsmtInstance.get(assessmentInstanceSysId) ) {  
+  grAsmtInstance.trigger_table = current.getTableName();  
+  grAsmtInstance.trigger_id = current.getValue('sys_id');  
+  grAsmtInstance.update();  
+ } else {  
+  throw 'Could not create new Survey: not found';  
+  }  
+} else {  
+  throw 'Could not create new Survey:' + createAssessmentOutput;  
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-31 01:59:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a0483a4db0053004c30d170cf96195a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Create Assessment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Environmental Management System" source="x_44763_environmen">10361436dbeb03004c30d170cf961942</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Environmental Management System">10361436dbeb03004c30d170cf961942</sys_scope>
+        <sys_update_name>sys_ui_action_6a0483a4db0053004c30d170cf96195a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-31 02:09:12</sys_updated_on>
+        <table>x_44763_environmen_facility_assessment</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>

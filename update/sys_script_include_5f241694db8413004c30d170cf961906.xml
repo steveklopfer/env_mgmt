@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_44763_environmen.TaskTriggerHelper</api_name>
+        <client_callable>false</client_callable>
+        <description>Used for managing and creating server code related to the trigger actions.</description>
+        <name>TaskTriggerHelper</name>
+        <script><![CDATA[var TaskTriggerHelper = Class.create();
+TaskTriggerHelper.prototype = {
+    initialize: function() {
+    },
+    
+	createTask: function(source_table,template_value,source_id) {
+	 var newRecord = new GlideRecord(source_table);
+      newRecord.initialize();
+	 var templateArray = template_value.split("^");
+	 for (i=0; i < templateArray.length;i++) {
+		 var valueArray = templateArray[i].split("=");
+		 newRecord.setValue(valueArray[0],valueArray[1]);
+	  }
+		newRecord.setValue('facility_assesssment',source_id);
+		 newRecord.insert();
+   },
+	
+    type: 'TaskTriggerHelper'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2018-01-30 03:51:22</sys_created_on>
+        <sys_id>5f241694db8413004c30d170cf961906</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>TaskTriggerHelper</sys_name>
+        <sys_package display_value="Environmental Management System" source="x_44763_environmen">10361436dbeb03004c30d170cf961942</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Environmental Management System">10361436dbeb03004c30d170cf961942</sys_scope>
+        <sys_update_name>sys_script_include_5f241694db8413004c30d170cf961906</sys_update_name>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2018-01-30 04:36:42</sys_updated_on>
+    </sys_script_include>
+</record_update>

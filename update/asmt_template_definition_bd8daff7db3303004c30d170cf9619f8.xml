@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="asmt_template_definition">
+    <asmt_template_definition action="INSERT_OR_UPDATE">
+        <display>Yes</display>
+        <selected_image/>
+        <sys_class_name>asmt_template_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-28 21:04:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bd8daff7db3303004c30d170cf9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Yes</sys_name>
+        <sys_package display_value="Environmental Management System" source="x_44763_environmen">10361436dbeb03004c30d170cf961942</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Environmental Management System">10361436dbeb03004c30d170cf961942</sys_scope>
+        <sys_update_name>asmt_template_definition_bd8daff7db3303004c30d170cf9619f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-28 21:04:26</sys_updated_on>
+        <template display_value="Facility Assessment Template">9c6d2ff7db3303004c30d170cf9619e2</template>
+        <unselected_image/>
+        <value>0</value>
+    </asmt_template_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=bd8daff7db3303004c30d170cf9619f8"/>
+</record_update>

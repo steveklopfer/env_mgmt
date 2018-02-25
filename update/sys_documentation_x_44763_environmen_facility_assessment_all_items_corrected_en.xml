@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="all_items_corrected" label="All Items Corrected" language="en" table="x_44763_environmen_facility_assessment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>all_items_corrected</element>
+            <help/>
+            <hint/>
+            <label>All Items Corrected</label>
+            <language>en</language>
+            <name>x_44763_environmen_facility_assessment</name>
+            <plural>All Items Corrected</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-02 13:36:09</sys_created_on>
+            <sys_id>f1e6b759db0053004c30d170cf961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>All Items Corrected</sys_name>
+            <sys_package display_value="Environmental Management System" source="x_44763_environmen">10361436dbeb03004c30d170cf961942</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Environmental Management System">10361436dbeb03004c30d170cf961942</sys_scope>
+            <sys_update_name>sys_documentation_x_44763_environmen_facility_assessment_all_items_corrected_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-02 13:36:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

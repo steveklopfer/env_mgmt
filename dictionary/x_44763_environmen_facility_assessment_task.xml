@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Facility Assessment Task" max_length="40" name="x_44763_environmen_facility_assessment_task" sizeclass="10" type="collection">
+        <element label="Date Corrected" max_length="40" name="date_corrected" type="glide_date"/>
+        <element label="Facility Assesssment" max_length="32" name="facility_assesssment" reference="x_44763_environmen_facility_assessment" type="reference"/>
+    </element>
+</database>

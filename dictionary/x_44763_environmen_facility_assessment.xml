@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Facility Assessment" max_length="40" name="x_44763_environmen_facility_assessment" sizeclass="10" type="collection">
+        <element label="All Items Corrected" max_length="40" name="all_items_corrected" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Assessment State" max_length="40" name="assessment_state" type="string">
+            <choice>
+                <element label="Requested" sequence="0" value="Requested"/>
+                <element label="Inspector Assigned" sequence="1" value="Inspector Assigned"/>
+                <element label="Ready to Take" sequence="2" value="Ready to Take"/>
+                <element label="Completed" sequence="3" value="Completed"/>
+                <element label="Review" sequence="4" value="Review"/>
+                <element label="Closed" sequence="5" value="Closed"/>
+            </choice>
+        </element>
+        <element label="Assigned Group" max_length="32" name="assigned_group" reference="sys_user_group" reference_qual="nameSTARTSWITHFacility^EQ" reference_qual_condition="nameSTARTSWITHFacility^EQ" type="reference"/>
+        <element label="Date Inspected" max_length="40" name="date_inspected" type="glide_date"/>
+        <element dependent="u_assigned_group" dependent_on_field="u_assigned_group" label="Inspector" max_length="32" name="inspector" reference="sys_user" reference_qual="roles=x_44763_environmen.user^EQ" reference_qual_condition="roles=x_44763_environmen.user^EQ" type="reference" use_dependent_field="true"/>
+        <element label="Open Items" max_length="40" name="open_items" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="Informal Facility Assessment Checklist" label="Form Title" max_length="40" name="u_fromtitle" read_only="true" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="85ba3bb0db0413004c30d170cf96194a" sys_domain="global" table="x_44763_environmen_facility_assessment_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-01 00:35:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01ba3bb0db0413004c30d170cf96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_44763_environmen_facility_assessment_task" name="x_44763_environmen_facility_assessment_task" sys_domain="global" view="Default view">85ba3bb0db0413004c30d170cf96194a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_44763_environmen_facility_assessment_task" sys_domain="global" view="Default view">e18094b1dbb303004c30d170cf961973</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-01 00:35:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-01 00:35:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9ba3bb0db0413004c30d170cf96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_44763_environmen_facility_assessment_task" name="x_44763_environmen_facility_assessment_task" sys_domain="global" view="Default view">85ba3bb0db0413004c30d170cf96194a</sys_ui_form>
+            <sys_ui_section caption="Activities/Notes" display_value="Activities/Notes" name="x_44763_environmen_facility_assessment_task" sys_domain="global" view="Default view">49ba3bb0db0413004c30d170cf96194b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-01 00:35:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-01 00:37:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>171bfbf0db0413004c30d170cf961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_44763_environmen_facility_assessment_task" name="x_44763_environmen_facility_assessment_task" sys_domain="global" view="Default view">85ba3bb0db0413004c30d170cf96194a</sys_ui_form>
+            <sys_ui_section caption="Checklist" display_value="Checklist" name="x_44763_environmen_facility_assessment_task" sys_domain="global" view="Default view">971bfbf0db0413004c30d170cf961986</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-01 00:37:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_44763_environmen_facility_assessment_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-01 00:35:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85ba3bb0db0413004c30d170cf96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_44763_environmen_facility_assessment_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Environmental Management System" source="x_44763_environmen">10361436dbeb03004c30d170cf961942</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Environmental Management System">10361436dbeb03004c30d170cf961942</sys_scope>
+            <sys_update_name>sys_ui_form_sections_85ba3bb0db0413004c30d170cf96194a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-01 00:35:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
